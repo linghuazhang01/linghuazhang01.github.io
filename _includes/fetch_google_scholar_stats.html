@@ -1,3 +1,4 @@
+{% if site.google_scholar_stats_enabled %}
 <script>
     $(document).ready(function () {
         {% if site.google_scholar_stats_use_cdn %}
@@ -7,13 +8,21 @@
         {% endif %}
         $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
             var totalCitation = data['citedby']
-            document.getElementById('total_cit').innerHTML = totalCitation;
+            var totalCitationElement = document.getElementById('total_cit')
+            if (totalCitationElement) {
+                totalCitationElement.innerHTML = totalCitation;
+            }
             var citationEles = document.getElementsByClassName('show_paper_citations')
             Array.prototype.forEach.call(citationEles, element => {
                 var paperId = element.getAttribute('data')
-                var numCitations = data['publications'][paperId]['num_citations']
-                element.innerHTML = '| Citations: ' + numCitations;
+                var paperData = data['publications'] && data['publications'][paperId]
+                if (paperData && paperData['num_citations'] !== undefined) {
+                    element.innerHTML = '| Citations: ' + paperData['num_citations'];
+                }
             });
+        }).fail(function (_jqxhr, textStatus, error) {
+            console.warn('Google Scholar citation stats unavailable:', textStatus, error);
         });
     })
 </script>
+{% endif %}

@@ -9,6 +9,7 @@
 title                    : "Linghua Zhang"
 description              : "LLM Agent | Agentic RL | GUI Agent | Data Synthesis"
 repository               : "linghuazhang01/linghuazhang01.github.io"
+google_scholar_stats_enabled : true
 google_scholar_stats_use_cdn : false
 
 # google analytics
@@ -27,7 +28,7 @@ author:
   location         : "Houston, TX, USA"
   employer         : "Rice University"
   pubmed           :
-  googlescholar    :
+  googlescholar    : "https://scholar.google.com/citations?user=ATDVsm8AAAAJ&hl=en"
   email            : "zlh20011228@gmail.com"
   researchgate     :
   uri              : "https://linghuazhang01.github.io"

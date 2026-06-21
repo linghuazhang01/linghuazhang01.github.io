@@ -18,7 +18,7 @@ My research interests include:
 - **GUI Agent**
 - **Data Synthesis**
 
-Email: zlh20011228@gmail.com | [LinkedIn](https://www.linkedin.com/in/linghua-zhang-55b041342/) | [GitHub](https://github.com/linghuazhang01) | [Resume](/files/resume.pdf)
+Email: zlh20011228@gmail.com | [Google Scholar](https://scholar.google.com/citations?user=ATDVsm8AAAAJ&hl=en) | [LinkedIn](https://www.linkedin.com/in/linghua-zhang-55b041342/) | [GitHub](https://github.com/linghuazhang01) | [Resume](/files/resume.pdf)
 
 
 
@@ -39,7 +39,7 @@ Email: zlh20011228@gmail.com | [LinkedIn](https://www.linkedin.com/in/linghua-zh
 <div class='paper-box-text' markdown="1">
 
 **Linghua Zhang**, Zhisong Zhang, et al. *RetailBench: Evaluating Long-Horizon Autonomous Decision-Making and Strategy Stability of LLM Agents in Realistic Retail Environments.*
-[[arXiv]](https://arxiv.org/abs/2603.16453)
+[[arXiv]](https://arxiv.org/abs/2603.16453) <span class='show_paper_citations' data='ATDVsm8AAAAJ:u5HHmVD_uO8C'></span>
 
 </div>
 </div>
