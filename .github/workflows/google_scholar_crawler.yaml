@@ -13,7 +13,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 3
     steps:
       - uses: actions/checkout@v4
       - name: Validate Google Scholar ID
@@ -27,16 +27,11 @@ jobs:
           fi
         env:
           GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
-      - name: Install Reqs
-        if: steps.scholar_id.outputs.enabled == 'true'
-        run: |
-          sudo apt-get install python3-setuptools
       - name: Run
         if: steps.scholar_id.outputs.enabled == 'true'
         run: |
           cd ./google_scholar_crawler
-          python3 -m pip install -r requirements.txt
-          timeout 120s python3 main.py || {
+          timeout 45s python3 main.py || {
             echo "::warning::Citation crawler failed; keeping the previous citation data."
             exit 0
           }
