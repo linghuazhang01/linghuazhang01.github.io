@@ -10,7 +10,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently an on-site Research Assistant at City University of Hong Kong, working with Prof. Shuang Qiu on GUI agents and cross-application web data synthesis. I received my M.S. in Computer Science from <a href="https://www.rice.edu/">Rice University</a> in 2026 and my B.E. in Software Engineering from <a href="https://www.zju.edu.cn/">Zhejiang University</a> in 2023. My research interests center on building and evaluating LLM agents that can reason, use tools, and act reliably in long-horizon, interactive environments. Previously, I worked with Prof. Zhisong Zhang on <em>RetailBench</em>, a benchmark for studying long-horizon autonomous decision-making and strategy stability of LLM agents in realistic retail settings, and I was an LLM Algorithm Engineer Intern at Alibaba Local Services, where I built SFT + Agent + RL training pipelines, conducted full-parameter RL fine-tuning for 32B-scale agentic models, and constructed multi-turn CoT/tool-use datasets.
+I am currently a full-time Research Assistant at City University of Hong Kong, where I work with Prof. Shuang Qiu on Agentic RL and multi-domain training for LLM agents. I received my M.S. in Computer Science from <a href="https://www.rice.edu/">Rice University</a> in 2026 and my B.E. in Software Engineering from <a href="https://www.zju.edu.cn/">Zhejiang University</a> in 2023. My research focuses on training and evaluating LLM agents for reliable reasoning, tool use, and long-horizon decision-making in interactive environments. Previously, I worked with Prof. Zhisong Zhang on <em>RetailBench</em> and interned at Alibaba on agentic LLM training, experiences that shaped my interest in bridging research benchmarks, model training, and practical agent systems.
 
 My research interests include:
 - **LLM Agent**
@@ -49,21 +49,17 @@ Email: zlh20011228@gmail.com | [Google Scholar](https://scholar.google.com/citat
 # Research Experience
 
 ### City University of Hong Kong
-*2026 -- Present*
+*Jun 2026 -- Present*
 **On-site Research Assistant** | Advisor: Prof. Shuang Qiu
-- Working on GUI agents and cross-application web data synthesis, with a focus on long-horizon web interaction, trajectory construction, and evaluation data design.
-
-### Ant International
-*Nov 2025 -- Present*
-**Research Intern** | GUI Agent Data Synthesis
-- Surveyed web trajectory synthesis methods (Explorer, OS-Genesis, Go-Browse). Identified cross-website multi-hop synthesis as a gap.
-- Set up WebArena and initiated experiments on cross-website multi-step data synthesis.
+- Reproduced OPD training pipelines and extended them to code, math, instruction following, and ScienceQA tasks.
+- Ran multi-domain experiments on 6 H200 GPUs to study optimization conflicts and performance trade-offs across tasks.
+- Designed experiments around MOPD training objectives and student sampling strategies for improving multi-domain Agentic RL.
 
 ### City University of Hong Kong
-*Nov 2025 -- Mar 2026*
+*Dec 2025 -- Mar 2026*
 **Research Assistant** | Advisor: Prof. Zhisong Zhang
-- Led **RetailBench**, an LLM agent benchmark for long-horizon retail decision-making.
-- Independently handled problem formulation, environment design, experiments, and paper writing. Published on [arXiv](https://arxiv.org/abs/2603.16453), under **ARR review**.
+- Led **RetailBench**, a realistic supermarket simulation benchmark with 96 products and 7 modules covering inventory, shelves, supply chains, customers, reviews, news, and finance.
+- Designed a 180-day business simulation, oracle baselines, and diagnostic metrics to evaluate long-horizon decision-making, tool use, and strategy stability across 7 LLM/agent frameworks. Published on [arXiv](https://arxiv.org/abs/2603.16453), under **ARR review**.
 
 ### Zhejiang University, CAD Lab
 *Dec 2022 -- Jun 2023*
@@ -76,20 +72,22 @@ Email: zlh20011228@gmail.com | [Google Scholar](https://scholar.google.com/citat
 # Work Experience
 
 ### Alibaba Local Services
-*May 2025 -- Oct 2025*
+*May 2025 -- Nov 2025*
 **LLM Algorithm Engineer Intern** | Agentic LLM Training
-- Built an SFT + Agent + RL unified training framework.
-- Conducted full-parameter RL fine-tuning on a 32B model with 64 H20 GPUs.
-- Built 20k-30k multi-turn CoT + tool-use SFT samples and a 2k RL dataset.
+- Built an SFT + workflow rollout + GRPO training pipeline for data-analysis agents, connecting trajectory sampling, reasoning rewrite, data construction, RL fine-tuning, and evaluation.
+- Constructed 8k multi-turn reasoning/tool-use cold-start samples and a 2k vertical RL task set from expert knowledge documents.
+- Conducted GRPO fine-tuning for a 32B model on 64 H20 GPUs, improving both general benchmarks and vertical data-query tasks over the SFT baseline.
 
 ### Alibaba DingTalk (DingDing)
 *Jul 2023 -- Aug 2024*
 **Software Engineer**
-- Full-stack development for DingTalk Docs: requirements review, feature iteration, and i18n infrastructure.
+- Worked on DingTalk Docs internationalization, including multilingual text extraction, translation platform integration, and frontend display-flow refactoring.
+- Built commercialization entries, collaboration permission controls, analytics instrumentation, and responsive adaptation for document editing and collaboration scenarios.
 
 <span class='anchor' id='-jneng'></span>
 
 # Skills
-- **Programming:** Python, React, CSS, HTML
-- **Model Training:** Data synthesis, full-parameter RL fine-tuning of 32B-scale agentic models on large GPU clusters
+- **LLM Training:** Python, PyTorch, Transformers, SFT, GRPO, Agentic RL, multi-turn trajectory rewriting
+- **Agent & Evaluation:** LLM agents, tool use, workflow rollout, benchmark design, long-horizon decision-making evaluation, diagnostic analysis
+- **Engineering:** TypeScript, React, frontend engineering, internationalization, responsive design, permission control, analytics instrumentation
 - **Languages:** English (Fluent, TOEFL: 100), Mandarin (Native)
