@@ -10,7 +10,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a full-time Research Assistant at City University of Hong Kong, where I work with Prof. Shuang Qiu on Agentic RL and multi-domain training for LLM agents. I received my M.S. in Computer Science from <a href="https://www.rice.edu/">Rice University</a> in 2026 and my B.E. in Software Engineering from <a href="https://www.zju.edu.cn/">Zhejiang University</a> in 2023. My research focuses on training and evaluating LLM agents for reliable reasoning, tool use, and long-horizon decision-making in interactive environments. Previously, I worked with Prof. Zhisong Zhang on <em>RetailBench</em> and interned at Alibaba on agentic LLM training, experiences that shaped my interest in bridging research benchmarks, model training, and practical agent systems.
+I am currently a full-time Research Assistant at City University of Hong Kong, where I work with Prof. Shuang Qiu on training algorithm optimization for LLM MOPD. I received my M.S. in Computer Science from <a href="https://www.rice.edu/">Rice University</a> in 2026 and my B.E. in Software Engineering from <a href="https://www.zju.edu.cn/">Zhejiang University</a> in 2023. My research focuses on training and evaluating LLM agents so that they can reason reliably, use tools, and make long-horizon decisions in interactive environments. Previously, I worked with Prof. Zhisong Zhang on <em>RetailBench</em> and interned at Alibaba on agentic LLM training; these experiences shaped my interest in bridging realistic agent benchmarks, model training, and practical agent systems.
 
 My research interests include:
 - **LLM Agent**
