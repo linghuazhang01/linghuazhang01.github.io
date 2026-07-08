@@ -10,7 +10,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Master's student in Computer Science at <a href="https://www.rice.edu/">Rice University</a>, advised by myself :). I received my B.E. in Software Engineering from <a href="https://www.zju.edu.cn/">Zhejiang University</a> in 2023.
+I am currently an on-site Research Assistant at City University of Hong Kong, working with Prof. Shuang Qiu on GUI agents and cross-application web data synthesis. I received my M.S. in Computer Science from <a href="https://www.rice.edu/">Rice University</a> in 2026 and my B.E. in Software Engineering from <a href="https://www.zju.edu.cn/">Zhejiang University</a> in 2023. My research interests center on building and evaluating LLM agents that can reason, use tools, and act reliably in long-horizon, interactive environments. Previously, I worked with Prof. Zhisong Zhang on <em>RetailBench</em>, a benchmark for studying long-horizon autonomous decision-making and strategy stability of LLM agents in realistic retail settings, and I was an LLM Algorithm Engineer Intern at Alibaba Local Services, where I built SFT + Agent + RL training pipelines, conducted full-parameter RL fine-tuning for 32B-scale agentic models, and constructed multi-turn CoT/tool-use datasets.
 
 My research interests include:
 - **LLM Agent**
@@ -47,6 +47,11 @@ Email: zlh20011228@gmail.com | [Google Scholar](https://scholar.google.com/citat
 <span class='anchor' id='-kyjl'></span>
 
 # Research Experience
+
+### City University of Hong Kong
+*2026 -- Present*
+**On-site Research Assistant** | Advisor: Prof. Shuang Qiu
+- Working on GUI agents and cross-application web data synthesis, with a focus on long-horizon web interaction, trajectory construction, and evaluation data design.
 
 ### Ant International
 *Nov 2025 -- Present*
