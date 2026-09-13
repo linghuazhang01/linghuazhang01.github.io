@@ -1,0 +1,17 @@
+{
+  "name": "zhang linghua",
+  "citedby": 7,
+  "updated": "2026-09-13T12:53:15",
+  "publications": {
+    "ATDVsm8AAAAJ:u5HHmVD_uO8C": {
+      "author_pub_id": "ATDVsm8AAAAJ:u5HHmVD_uO8C",
+      "num_citations": 7,
+      "bib": {
+        "title": "RetailBench: Evaluating Long-Horizon Autonomous Decision-Making and Strategy Stability of LLM Agents in Realistic Retail Environments",
+        "author": "L Zhang, J Wang, J Wu, Z Zhang",
+        "citation": "arXiv preprint arXiv:2603.16453, 2026",
+        "pub_year": "2026"
+      }
+    }
+  }
+}
